@@ -1,0 +1,8 @@
+main
+	GPIO_Init
+	LED_Init
+		GPIO_SetPinDirection
+	delay
+	LED_Toggle
+		GPIO_GetPinValue
+		GPIO_SetPinValue
